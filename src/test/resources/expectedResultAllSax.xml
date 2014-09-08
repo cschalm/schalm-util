@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<init>
+	<location>
+		<posX>
+			-4
+		</posX>
+		<posY>
+			-4
+		</posY>
+	</location>
+	<size
+		fullScreen="true">
+		<width>
+			1448
+		</width>
+		<height>
+			878
+		</height>
+	</size>
+</init>
