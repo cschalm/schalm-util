@@ -31,9 +31,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:svn:https://svn.code.sf.net/p/jmailchecker/code/schalm-util/trunk</connection>
-        <developerConnection>scm:svn:https://svn.code.sf.net/p/jmailchecker/code/schalm-util/trunk</developerConnection>
-        <url>http://svn.code.sf.net/p/jmailchecker/code/schalm-util/trunk/</url>
+        <connection>scm:git:https://github.com/cschalm/schalm-util.git</connection>
+        <developerConnection>scm:git:https://github.com/cschalm/schalm-util.git</developerConnection>
+        <url>https://github.com/cschalm/schalm-util</url>
     </scm>
     <ciManagement>
         <system>continuum</system>
