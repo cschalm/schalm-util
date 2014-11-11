@@ -34,9 +34,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:https://svn.code.sf.net/p/jmailchecker/code/schalm-util/trunk</connection>
-    <developerConnection>scm:svn:https://svn.code.sf.net/p/jmailchecker/code/schalm-util/trunk</developerConnection>
-    <url>http://svn.code.sf.net/p/jmailchecker/code/schalm-util/trunk/</url>
+    <connection>scm:git:https://github.com/cschalm/schalm-util.git</connection>
+    <developerConnection>scm:git:https://github.com/cschalm/schalm-util.git</developerConnection>
+    <url>https://github.com/cschalm/schalm-util</url>
   </scm>
   <build>
     <plugins>
@@ -159,7 +159,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>2.9.1</version>
+        <version>2.10.1</version>
         <reportSets>
           <reportSet>
             <id>html</id>
