@@ -1,6 +1,7 @@
 package org.schalm.util.helper.app;
 
 import java.text.NumberFormat;
+import java.util.Locale;
 
 /**
  * Helper to measure times in a application.
@@ -34,7 +35,7 @@ public class TimeHelper {
      * @return human readable String
      */
     public static String getTimeString(long nanoTime) {
-        NumberFormat nf = NumberFormat.getInstance();
+        NumberFormat nf = NumberFormat.getInstance(Locale.GERMANY);
         float time = nanoTime;
         time /= 1000000;
         String result = nf.format(time) + " ms";

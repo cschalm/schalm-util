@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.StringReader;
 import java.text.NumberFormat;
+import java.util.Locale;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -80,7 +82,7 @@ public final class StringHelper {
 	 * @return the formatted string
 	 */
 	public static String getSizeString(long bytes) {
-		NumberFormat nf = NumberFormat.getInstance();
+		NumberFormat nf = NumberFormat.getInstance(Locale.GERMANY);
 		if (Math.abs(bytes) < 1024) {
 			return bytes + " B";
 		}
